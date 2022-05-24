@@ -1,0 +1,55 @@
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_danger {
+    color: #dc3545;
+    border: 1px solid transparent;
+    border-color: #dc3545;
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+}
+
+.btn_danger:hover {
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid transparent;
+    border-color: #dc3545;
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+}
+
+.btn_done {
+    color: #28a745;
+    border: 1px solid transparent;
+    border-color: #28a745;
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+}
+
+.btn_done:hover {
+    background-color: #28a745;
+    color: white;
+    border: 1px solid transparent;
+    border-color: #28a745;
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+}
+
+.todo {
+    display: flex;
+    justify-content:space-between;
+}
+
+.btn_edit {
+    color: #28a745;
+    border: 1px solid transparent;
+    border-color: #28a745;
+    border-radius: 0.25rem;
+    padding: .375rem .75rem;
+}
